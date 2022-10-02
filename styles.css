@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+
+body {
+    background-color: #111316   ;
+}
+
+@media screen and (max-width:1440px) {
+    .container {
+        width: 400px;
+        background-color: #252D36;
+        padding: 30px;
+        margin: 10% auto;
+        border-radius: 20px;
+    
+    }
+
+    .background-img {
+        background-color: #2F474F;
+        border-radius: 100%;
+        width: 40px;
+        height: 40px;
+        margin-bottom: 30px;
+    }
+    
+    .star-img {
+        width: 15px;
+        margin: 12px 0 0 13px;
+    }
+
+    .thank-you-img {
+        margin: 15px auto;
+        display: flex;
+    }
+    
+    h2 {
+        font-weight: 700;
+        font-size: 30px;
+        color: #FFFFFF;
+        margin: 10px auto; 
+    }
+
+    .thank-you-h2 {
+        text-align: center;
+    }
+    
+    p {
+        color: #959EAB;
+        font-weight: 400;
+        font-size: 15px;
+        margin: 10px auto;
+        text-align: justify;
+    }
+
+    .thank-you-paragraph-top {
+        background-color: #2F474F;
+        color: #FB7312;
+        width: 50%;
+        text-align: center;
+        padding: 5px;
+        border-radius: 30px;
+    }
+
+    .thank-you-paragraph {
+        text-align: center;
+    }
+    
+    div.input {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    input {
+        border-radius: 100px;
+        height: 40px;
+        color: #959EAB;
+        background: #2F474F;
+        border: none;
+        cursor: pointer;
+        width: 40px;
+        margin: 10px 0;
+    }
+    
+    input:hover {
+        opacity: 0.5;
+    }
+  
+    button {
+        background-color: #FB7312;
+        border: none;
+        cursor: pointer;
+        border-radius: 25px;
+        display: block;
+        color: #FFFFFF;
+        margin: 10px auto;
+        width: 100%;
+        height: 30px;
+        text-transform: uppercase;
+        text-decoration: none;
+        text-align: center;
+        padding-top: 5px;
+    }
+
+     button:hover {
+        background-color: #FFFFFF;
+        color: #FB7312;
+    }
+
+    button:disabled {
+        opacity: 0.7;
+        cursor: default;
+    }
+
+    button:disabled:hover {
+        background-color: #FB7f04;
+        color: #FFFFFF;
+    }
+    
+    a.submit {
+        text-decoration: none;
+    }
+
+
+    footer {
+        color: #959EAB;
+        text-align: center;
+        display: block;
+        margin: 20px 0;
+    }
+
+    a {
+        text-decoration: none;
+        color: #959EAB;
+    }
+
+    footer a:hover {
+        text-decoration: underline #FB7312;
+    }
+    
+    
+}
+
+
