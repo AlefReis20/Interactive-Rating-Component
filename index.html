@@ -13,7 +13,7 @@
 </head>
 <body>
    
-    <main class="container">
+    <main class="box1" id="box1">
         <div class="background-img">
             <img class="star-img" src="./assets/icon-star.svg" alt="icon-star">
         </div>
@@ -22,20 +22,32 @@
         <p> Please let us know how we did with your support request. All feedback is appreciated 
             to help us improve our offering!</p>
             <div class="input">
-                <input id="input1" type="button" value="1">
-                <input id="input2" type="button" value="2">
-                <input id="input3" type="button" value="3">
-                <input id="input4" type="button" value="4">
-                <input id="input5" type="button" value="5">
+                <input onclick="selected(this.id)" type="button" value="1" id="1">
+                <input onclick="selected(this.id)" type="button" value="2" id="2">
+                <input onclick="selected(this.id)" type="button" value="3" id="3">
+                <input onclick="selected(this.id)" type="button" value="4" id="4">
+                <input onclick="selected(this.id)" type="button" value="5" id="5">
             </div>
             
-            <button onclick="redirect()" id="submit" disabled>submit</button></a>
+            <button id="submit" disabled>submit</button></a>
 
             <footer>
                 Challenge by: <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> <br>
                 Coded by: <a href="https://www.linkedin.com/in/alef-reis2022/" target="_blank">Alef Reis</a>
             </footer>
     </main>
+
+    <div class="box2" id="box2">
+        <img class="thank-you-img" src="./assets/illustration-thank-you.svg" alt="thank-you">
+        <p class="thank-you-paragraph-top" id="paragraph"></p>
+        <h2 class="thank-you-h2">Thank you!</h2>
+        <p class="thank-you-paragraph">We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+
+            <footer>
+                Challenge by: <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> <br>
+                Coded by: <a href="https://www.linkedin.com/in/alef-reis2022/" target="_blank">Alef Reis</a>
+            </footer>
+    </div>
     
 </body>
 <script src="./scripts.js"></script>

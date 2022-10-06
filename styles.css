@@ -6,17 +6,23 @@
 }
 
 body {
-    background-color: #111316   ;
+    background-color: #111316;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-@media screen and (max-width:1440px) {
-    .container {
+
+    .box1, .box2 {
         width: 400px;
         background-color: #252D36;
         padding: 30px;
-        margin: 10% auto;
         border-radius: 20px;
-    
+    }
+
+    .box2 {
+        display: none;
     }
 
     .background-img {
@@ -140,9 +146,7 @@ body {
 
     footer a:hover {
         text-decoration: underline #FB7312;
+        color: #FB7312;
     }
-    
-    
-}
 
 
